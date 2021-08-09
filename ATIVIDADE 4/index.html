@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATIVIDADE 4</title>
+
+    <style>
+        * {
+
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial;
+            padding: 20px;
+            background: #f1f1f1;
+
+        }
+
+
+        .header {
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+            background: rgb(4, 2, 2);
+        }
+
+        nav {
+            color: rgb(24, 20, 14);
+            display: block;
+            text-decoration: none;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-size: 20px;
+            text-align: justify;
+            margin-left: 10px;
+            color: white;
+        }
+
+        p {
+            margin-top: 10px;
+            margin-bottom: 40px;
+            text-align: left;
+            display: inline-block;
+            font-size: 15px;
+        }
+
+        .container {
+            position: relative;
+            max-width: 100%;
+            margin: 0 auto;
+            float: left;
+            padding: 0;
+
+        }
+
+        .container img {
+            vertical-align: middle;
+            border-radius: 2px;
+
+            height: 90%;
+        }
+
+        .container .content {
+            position: absolute;
+            bottom: 0.1rem;
+            align-items: baseline;
+            margin-bottom: -0.1rem;
+            background: rgba(0, 0, 0, 0.5);
+            color: #f1f1f1;
+            width: 100%;
+            height: 38%;
+        }
+
+        .container-volei {
+            position: relative;
+            max-width: 100%;
+            margin: 0 auto;
+            float: right;
+            padding: 0;
+
+        }
+
+        .container-volei .content-volei {
+            position: absolute;
+            bottom: 0.1rem;
+            align-items: baseline;
+            margin-bottom: 0.2rem;
+            margin-left: -0rem;
+            background: rgba(0, 0, 0, 0.5);
+            color: #f1f1f1;
+            width: 100%;
+            height: 38%;
+        }
+
+        .container-boxe {
+            position: relative;
+            width: 30%;
+            margin: 0 auto;
+            float: left;
+            padding: 0;
+
+
+        }
+
+        .container-boxe img {
+            vertical-align: middle;
+            border-radius: 2px;
+
+            height: 100%;
+        }
+
+        .container-boxe .content-boxe {
+            position: absolute;
+            bottom: 0rem;
+            align-items: baseline;
+            margin-bottom: rem;
+            background: rgba(0, 0, 0, 0.5);
+            color: #f1f1f1;
+            width: 100%;
+            height: 50%;
+
+        }
+
+        .container-futebol {
+            position: relative;
+            width: 35%;
+            margin: 0 auto;
+            margin-left: 25px;
+
+            float: left;
+            padding: 0;
+
+        }
+
+        .container-futebol img {
+            vertical-align: middle;
+            border-radius: 2px;
+
+            height: 100%;
+        }
+
+        .container-futebol .content-futebol {
+            position: absolute;
+            bottom: 0rem;
+            align-items: baseline;
+            margin: 0;
+            background: rgba(0, 0, 0, 0.5);
+            color: #f1f1f1;
+            width: 100%;
+            height: 50%;
+        }
+
+        .container-atletismo {
+            position: relative;
+            width: 31%;
+            max-width: 100%;
+            float: right;
+            margin: 0 auto;
+            float: right;
+            padding: 0;
+        }
+
+        .container-atletismo img {
+            vertical-align: middle;
+            border-radius: 2px;
+
+            height: 100%;
+        }
+
+        .container-atletismo .content-atletismo {
+            position: absolute;
+            bottom: 0rem;
+            align-items: baseline;
+            margin: 0;
+            background: rgba(0, 0, 0, 0.5);
+            color: #f1f1f1;
+            width: 100%;
+            height: 50%;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #686666;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: rgb(243, 234, 234);
+        }
+
+        footer {
+                text-align: center;
+                color: rgb(68, 68, 68);
+            
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+
+    <header class="header">
+        <h2>Notícias do dia</h2>
+
+    </header>
+
+
+
+    <section>
+
+        <h2>Jogos Olímpicos Tóquio 2020</h2>
+
+        <div class="container">
+            <img src="./img/imgPrincipal.jfif" alt="olimpiadas" style="width:100%;">
+            <div class="content">
+                <h1>As medalhas Olímpicas do Brasil em Tóquio 2020 em 2021</h1>
+                <p>
+                    As medalhas Olímpicas do Brasil em Tóquio 2020 em 2021
+                    O Brasil subiu ao pódio mais vezes do que nunca em Tóquio 2020: foram 21 medalhas (duas a mais que a
+                    Rio 2016), com sete ouros, seis pratas e oito bronzes. Teve medalha para todos ...</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Volei-->
+    <section>
+
+        <div class="container-volei">
+            <img src="/img/voleiImg.jfif" alt="voleiImg" style="width:100%; margin-left: 1px;" />
+            <div class="content-volei">
+                <h2>Vôlei</h2>
+                <p>Seleção brasileira é derrotada pelos Estados Unidos e fica com a prata
+                    Mais uma final Olímpica para a seleção brasileira em torneios femininos de ...
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!--Boxe-->
+    <section>
+
+        <div class="container-boxe">
+            <img src="/img/boxeImg.jfif" alt="boxeiImg"
+                style="width: 100%; height: 250px ; margin-top: 17px; margin-right: 15px;" />
+            <div class="content-boxe">
+                <h2>Boxe</h2>
+                <p>Beatriz Ferreira luta, mas se despede de Tóquio 2020 com a medalha de prata após perd...
+                </p>
+
+            </div>
+        </div>
+    </section>
+    <!--Futebol-->
+    <section>
+
+        <div class="container-futebol">
+            <img src="/img/futebolImg.jfif" alt="futebolImg"
+                style="width:100%; height: 250px ; margin-top: 12px; margin-right: 2px;" />
+            <div class="content-futebol">
+                <h2>Futebol</h2>
+                <p> O Jogador com mais títulos conquistados na história do futebol, Dani Alves su...
+                </p>
+
+            </div>
+        </div>
+    </section>
+    <!--Atlestismo-->
+    <section>
+
+        <div class="container-atletismo">
+            <img src="/img/atletismoImg.jfif" alt="atletismoImg"
+                style="width:100%; height: 250px ; margin-top: 10px;" />
+            <div class="content-atletismo">
+                <h2>Atletismo</h2>
+                <p> Alison dos Santos (bronze) - Atletismo, 400m com barreiras masculino...
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Autor: Otávio Falcão</p>
+    </footer>
+
+</body>
+
+</html>
